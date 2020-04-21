@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+}
+
+/* Header */
+
+header {
+  background-color: #181818;
+}
+
+header nav {
+  height: 70px;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav .logo {
+  color: #FFFFFF;
+}
+
+/* Main */
+
+main {
+  width: 100%;
+  background-color: #080808;
+}
+
+.cards-container {
+  width: 80%;
+  padding-top: 100px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.cards-container .card {
+  width: 300px;
+  height: 400px;
+  margin: 40px;
+  background-color: #181818;
+  color: #D3D3D3;
+}
+
+.cards-container .card .album-cover {
+  width: 100%;
+  height: 300px;
+}
+
+.cards-container .card .album-cover img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.cards-container .card .album-info {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards-container .card .album-info h3 {
+  color: #FFFFFF;
+  padding: 10px;
+}
+
+.cards-container .card .album-info p {
+  color: #D3D3D3;
+  padding: 10px;
+}
+
+/* Footer */
+
